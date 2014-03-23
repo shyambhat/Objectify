@@ -18,6 +18,8 @@
 	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
 	<key>MainTemplateFile</key>
 	<string>___FILEBASENAME___.m</string>
+	<key>CounterpartTemplateFile</key>
+	<string>___FILEBASENAME___.h</string>
 	<key>Options</key>
 	<array>
 		<dict>
@@ -34,10 +36,235 @@
 			<key>Type</key>
 			<string>text</string>
 		</dict>
+		<dict>
+			<key>Description</key>
+			<string>Name of Property 1</string>
+			<key>Identifier</key>
+			<string>p1_name</string>
+			<key>Name</key>
+			<string>Property 1 Name</string>
+			<key>NotPersisted</key>
+			<false/>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>text</string>
+		</dict>
+		<dict>
+			<key>Description</key>
+			<string>Type of Property 1</string>
+			<key>Identifier</key>
+			<string>p1_type</string>
+			<key>Name</key>
+			<string>Property 1 Type</string>
+			<key>NotPersisted</key>
+			<false/>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>popup</string>
+			<key>Values</key>
+			<array>
+				<string>BOOL</string>
+				<string>NSInteger</string>
+				<string>NSString</string>
+				<string>NSURL</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Description</key>
+			<string>Is Property 1 Transient?</string>
+			<key>Identifier</key>
+			<string>p1_transient</string>
+			<key>Name</key>
+			<string>Transient</string>
+			<key>NotPersisted</key>
+			<false/>
+			<key>Required</key>
+			<false/>
+			<key>Type</key>
+			<string>checkbox</string>
+			<key>Values</key>
+			<array>
+				<string>BOOL</string>
+				<string>NSInteger</string>
+				<string>NSString</string>
+				<string>NSURL</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Description</key>
+			<string>Name of Property 1</string>
+			<key>Identifier</key>
+			<string>p1_name</string>
+			<key>Name</key>
+			<string>Property 1 Name</string>
+			<key>NotPersisted</key>
+			<false/>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>text</string>
+		</dict>
+		<dict>
+			<key>Description</key>
+			<string>Type of Property 1</string>
+			<key>Identifier</key>
+			<string>p1_type</string>
+			<key>Name</key>
+			<string>Property 1 Type</string>
+			<key>NotPersisted</key>
+			<false/>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>popup</string>
+			<key>Values</key>
+			<array>
+				<string>BOOL</string>
+				<string>NSInteger</string>
+				<string>NSString</string>
+				<string>NSURL</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Description</key>
+			<string>Is Property 1 Transient?</string>
+			<key>Identifier</key>
+			<string>p1_transient</string>
+			<key>Name</key>
+			<string>Transient</string>
+			<key>NotPersisted</key>
+			<false/>
+			<key>Required</key>
+			<false/>
+			<key>Type</key>
+			<string>checkbox</string>
+			<key>Values</key>
+			<array>
+				<string>BOOL</string>
+				<string>NSInteger</string>
+				<string>NSString</string>
+				<string>NSURL</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Description</key>
+			<string>Name of Property 1</string>
+			<key>Identifier</key>
+			<string>p1_name</string>
+			<key>Name</key>
+			<string>Property 1 Name</string>
+			<key>NotPersisted</key>
+			<false/>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>text</string>
+		</dict>
+		<dict>
+			<key>Description</key>
+			<string>Type of Property 1</string>
+			<key>Identifier</key>
+			<string>p1_type</string>
+			<key>Name</key>
+			<string>Property 1 Type</string>
+			<key>NotPersisted</key>
+			<false/>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>popup</string>
+			<key>Values</key>
+			<array>
+				<string>BOOL</string>
+				<string>NSInteger</string>
+				<string>NSString</string>
+				<string>NSURL</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Description</key>
+			<string>Is Property 1 Transient?</string>
+			<key>Identifier</key>
+			<string>p1_transient</string>
+			<key>Name</key>
+			<string>Transient</string>
+			<key>NotPersisted</key>
+			<false/>
+			<key>Required</key>
+			<false/>
+			<key>Type</key>
+			<string>checkbox</string>
+			<key>Values</key>
+			<array>
+				<string>BOOL</string>
+				<string>NSInteger</string>
+				<string>NSString</string>
+				<string>NSURL</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Description</key>
+			<string>Name of Property 1</string>
+			<key>Identifier</key>
+			<string>p1_name</string>
+			<key>Name</key>
+			<string>Property 1 Name</string>
+			<key>NotPersisted</key>
+			<false/>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>text</string>
+		</dict>
+		<dict>
+			<key>Description</key>
+			<string>Type of Property 1</string>
+			<key>Identifier</key>
+			<string>p1_type</string>
+			<key>Name</key>
+			<string>Property 1 Type</string>
+			<key>NotPersisted</key>
+			<false/>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>popup</string>
+			<key>Values</key>
+			<array>
+				<string>BOOL</string>
+				<string>NSInteger</string>
+				<string>NSString</string>
+				<string>NSURL</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Description</key>
+			<string>Is Property 1 Transient?</string>
+			<key>Identifier</key>
+			<string>p1_transient</string>
+			<key>Name</key>
+			<string>Transient</string>
+			<key>NotPersisted</key>
+			<false/>
+			<key>Required</key>
+			<false/>
+			<key>Type</key>
+			<string>checkbox</string>
+			<key>Values</key>
+			<array>
+				<string>BOOL</string>
+				<string>NSInteger</string>
+				<string>NSString</string>
+				<string>NSURL</string>
+			</array>
+		</dict>
 	</array>
 	<key>Platforms</key>
 	<array>
 		<string>com.apple.platform.iphoneos</string>
+		<string>com.apple.platform.macosx</string>
 	</array>
 	<key>Summary</key>
 	<string>An Objective-C Model Object class</string>
